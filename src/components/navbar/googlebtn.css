@@ -1,0 +1,21 @@
+.custom-google-login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #4285F4, #0F9D58);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.custom-google-login-button:hover {
+  background: linear-gradient(45deg, #357ABD, #075E54);
+  transform: translateY(3px);
+
+}
